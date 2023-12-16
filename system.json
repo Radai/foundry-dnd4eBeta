@@ -15,11 +15,13 @@
 			"url": "https://github.com/EndlesNights",
 			"email": "endlesnights@gmail.com",
 			"discord": "endlesnights#9000"
-		  }
+    }
 	],
-	"relationships.requires": [
-		{ "name": "lib-wrapper" }
-	],
+  "relationships": {
+    "requires": [{
+      "name": "lib-wrapper"
+    }]
+  },
 	"esmodules": [
 		"module/dnd4eBeta.js"
 	],
