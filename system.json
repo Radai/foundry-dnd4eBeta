@@ -1,134 +1,134 @@
 {
-  "id": "dnd4e",
-  "title": "DnD 4th Edition",
-  "description": "An implementation of Dungeons & Dragons 4th Edition game system for Foundry Virtual Tabletop.",
-  "version": "0.4.39",
-  "compatibility":{
-    "minimum": 11,
-    "verified": 11,
-    "maximum": 11
-  },
-  "templateVersion": 2,
-  "authors": [
-    {
-      "name": "EndlesNights",
-      "url": "https://github.com/EndlesNights",
-      "email": "endlesnights@gmail.com",
-      "discord": "endlesnights#9000"
-      }
-  ],
-  "relationships.requires": [
-    { "name": "lib-wrapper" }
-  ],
-  "esmodules": [
-    "module/dnd4eBeta.js"
-  ],
-  "styles": [
-    "styles/dnd4eBeta.css"
-  ],
-  "packs": [
-    {
-      "name": "equipmentPack",
-      "label": "Equipment",
-      "path": "./packs/equipmentPack",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "featuresPack",
-      "label": "Classes, Race, & Features",
-      "path": "./packs/featuresPack",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "example_powers",
-      "label": "Example Powers",
-      "system": "dnd4e",
-      "path": "./packs/example_powers",
-      "type": "Item",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "manual",
-      "label": "Manual & Help",
-      "system": "dnd4e",
-      "path": "./packs/manual",
-      "type": "JournalEntry",
-      "private": false,
-      "flags": {}
-    },    
-    {
-      "name": "example_character",
-      "label": "Example Character",
-      "system": "dnd4e",
-      "path": "./packs/example_character",
-      "type": "Actor",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "srd_rules",
-      "label": "SRD Rules",
-      "system": "dnd4e",
-      "path": "./packs/srd_rules.db",
-      "type": "JournalEntry"
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "DnD4e",
-      "color": "#193974",
-      "packs": [
-      "equipmentPack",
-      "featuresPack",
-      "example_powers",
-      "manual",
-      "example_character",
-      "srd_rules"
-      ]
-    }
-    ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    },
-    {
-      "lang": "fr",
-      "name": "Français",
-      "path": "lang/fr.json"
-    },
-    {
-      "lang": "cn",
-      "name": "中文",
-      "path": "lang/cn.json"
-    },
-    {
-      "lang": "en-AU",
-      "name": "English (Australian)",
-      "path": "lang/en-au.json"
-    },
-    {
-      "lang": "pt-br",
-      "name": "Portugues do Brasil",
-      "path": "lang/pt-br.json"
-    }
-  ],
-  "socket": true,
-  "gridDistance": 1,
-  "gridUnits": "sq",
-  "primaryTokenAttribute": "attributes.hp",
-  "secondaryTokenAttribute": "attributes.temphp",
-  "url": "https://github.com/EndlesNights/dnd4eBeta",
-  "manifest": "https://raw.githubusercontent.com/EndlesNights/dnd4eBeta/main/system.json",
-  "download": "https://github.com/EndlesNights/dnd4eBeta/archive/0.4.39.zip",
-  "flags": {
-    "needsMigrationVersion": "0.4.37",
-    "compatibleMigrationVersion": "0.2.50"
-  }
+	"id": "dnd4e",
+	"title": "DnD 4th Edition",
+	"description": "An implementation of Dungeons & Dragons 4th Edition game system for Foundry Virtual Tabletop.",
+	"version": "0.4.39",
+	"compatibility":{
+		"minimum": 11,
+		"verified": 11,
+		"maximum": 11
+	},
+	"templateVersion": 2,
+	"authors": [
+		{
+			"name": "EndlesNights",
+			"url": "https://github.com/EndlesNights",
+			"email": "endlesnights@gmail.com",
+			"discord": "endlesnights#9000"
+		  }
+	],
+	"relationships.requires": [
+		{ "name": "lib-wrapper" }
+	],
+	"esmodules": [
+		"module/dnd4eBeta.js"
+	],
+	"styles": [
+		"styles/dnd4eBeta.css"
+	],
+	"packs": [
+		{
+			"name": "equipmentPack",
+			"label": "Equipment",
+			"path": "./packs/equipmentPack",
+			"type": "Item",
+			"private": false,
+			"flags": {}
+		},
+		{
+			"name": "featuresPack",
+			"label": "Classes, Race, & Features",
+			"path": "./packs/featuresPack",
+			"type": "Item",
+			"private": false,
+			"flags": {}
+		},
+		{
+			"name": "example_powers",
+			"label": "Example Powers",
+			"system": "dnd4e",
+			"path": "./packs/example_powers",
+			"type": "Item",
+			"private": false,
+			"flags": {}
+		},
+		{
+			"name": "manual",
+			"label": "Manual & Help",
+			"system": "dnd4e",
+			"path": "./packs/manual",
+			"type": "JournalEntry",
+			"private": false,
+			"flags": {}
+		},		
+		{
+			"name": "example_character",
+			"label": "Example Character",
+			"system": "dnd4e",
+			"path": "./packs/example_character",
+			"type": "Actor",
+			"private": false,
+			"flags": {}
+		},
+		{
+			"name": "srd_rules",
+			"label": "SRD Rules",
+			"system": "dnd4e",
+			"path": "./packs/srd_rules.db",
+			"type": "JournalEntry"
+		}
+	],
+	"packFolders": [
+		{
+		  "name": "DnD4e",
+		  "color": "#193974",
+		  "packs": [
+			"equipmentPack",
+			"featuresPack",
+			"example_powers",
+			"manual",
+			"example_character",
+			"srd_rules"
+		  ]
+		}
+	  ],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		},
+		{
+			"lang": "fr",
+			"name": "Français",
+			"path": "lang/fr.json"
+		},
+		{
+			"lang": "cn",
+			"name": "中文",
+			"path": "lang/cn.json"
+		},
+		{
+			"lang": "en-AU",
+			"name": "English (Australian)",
+			"path": "lang/en-au.json"
+		},
+		{
+			"lang": "pt-br",
+			"name": "Portugues do Brasil",
+			"path": "lang/pt-br.json"
+		}
+	],
+	"socket": true,
+	"gridDistance": 1,
+	"gridUnits": "sq",
+	"primaryTokenAttribute": "attributes.hp",
+	"secondaryTokenAttribute": "attributes.temphp",
+	"url": "https://github.com/EndlesNights/dnd4eBeta",
+	"manifest": "https://raw.githubusercontent.com/EndlesNights/dnd4eBeta/main/system.json",
+	"download": "https://github.com/EndlesNights/dnd4eBeta/archive/0.4.39.zip",
+	"flags": {
+		"needsMigrationVersion": "0.4.37",
+		"compatibleMigrationVersion": "0.2.50"
+	}
 }
